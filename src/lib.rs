@@ -535,6 +535,7 @@ fn expand_template(
         style(format!("project-name: {project_name}")).bold(),
         style("...").bold()
     );
+
     info!(
         "{} {} {}",
         emoji::WRENCH,
