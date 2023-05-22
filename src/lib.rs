@@ -535,6 +535,7 @@ fn expand_template(
         style(format!("project-name: {project_name}")).bold(),
         style("...").bold()
     );
+    project_variables::show_project_variables_with_value(&liquid_object, config);
 
     info!(
         "{} {} {}",
